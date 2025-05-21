@@ -1,0 +1,26 @@
+header{
+    background-color: black;
+    height:
+}
+
+.titulo h1{
+    color: rgb(152, 7, 7);
+    text-align: center;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menuLinks{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.link{
+    color: white;
+}
+
+.link a{
+    text-decoration: none;
+}
+
