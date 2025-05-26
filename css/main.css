@@ -1,0 +1,69 @@
+header {
+  background-color: black; /* Cor de fundo preta */
+  width: 100%; /* Ocupa toda a largura */
+  margin: 0; /* Remove margens */
+  padding: 0; /* Remove paddings internos (ou ajuste conforme necessário) */
+    border: 1px solid;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.titulo a{
+    color: rgb(13, 0, 255);
+
+}
+
+.titulo h1{
+    color: rgb(152, 7, 7);
+    text-align: center;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menuLinks{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.link a{
+    text-decoration: none;
+    color: white;
+}
+
+.link a:hover{
+    color: rgb(134, 134, 134);
+}
+
+
+ul {
+  list-style-type: none;
+  padding-right: 30px;
+}
+
+.galeriaProdutos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas de tamanho igual */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px; /* Espaço entre os itens */}
+
+.produto{
+    margin: 80px;
+}
+
+img{
+    width: auto;
+    height: 250px;
+}
