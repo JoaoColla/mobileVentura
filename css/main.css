@@ -10,6 +10,7 @@ header {
 body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .titulo{
@@ -60,12 +61,12 @@ ul {
     gap: 10px; /* Espaço entre os itens */}
 
 .produto{
-    margin: 80px;
+    margin: 70px;
 }
 
 img{
     width: auto;
-    height: 250px;
+    height: 200px;
 }
 
 .botaoSuportLogin{
