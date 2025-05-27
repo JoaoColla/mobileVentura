@@ -67,3 +67,9 @@ img{
     width: auto;
     height: 250px;
 }
+
+.botaoSuportLogin{
+    width: auto;
+    height: 60px;
+    padding: 20px;
+}
