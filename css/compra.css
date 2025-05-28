@@ -1,0 +1,62 @@
+.titulo h1{
+    color: rgb(152, 7, 7);
+    text-align: center;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 70px;
+}
+
+.infoProduto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    border: solid;
+}
+
+.support {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 14px;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+img{
+    width: auto;
+    height: 400px;
+}
+
+.txtProduto h2{
+    font-size: 40px;
+}
+
+.txtProduto h4{
+    font-size: 20px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: rgb(215, 104, 104);
+    color: white;
+}
+
+button :hover{
+    background-color: rgb(156, 200, 90);
+    width: 110px;
+    height: 55px;
+
+}
+
+.suporteImg {
+    width: auto;
+    height: 50px;
+    margin-right: 5px;
+}
